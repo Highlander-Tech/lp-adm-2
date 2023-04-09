@@ -8,9 +8,9 @@ module.exports = {
         title: ['Open Sans', 'sans-serif'],
       },
       backgroundImage: {
-        texture: "url('./src/img/bg.webp')",
-        bulbs: "url('./src/img/bulbs.webp')",
-        calculator: "url('./src/img/calculator.webp')",
+        texture: "url('/bg.webp')",
+        bulbs: "url('/bulbs.webp')",
+        calculator: "url('/calculator.webp')",
       },
     },
   },
