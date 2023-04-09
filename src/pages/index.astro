@@ -1,38 +1,33 @@
 ---
 import { Image } from '@astrojs/image/components'
 import Layout from '../layouts/Layout.astro'
-import Logo from '../img/jetx.png'
+import Logo from '../img/jetx.webp'
 import Button from '../components/Button.astro'
 ---
 
 <Layout title="Quer ganhar dinheiro extra de forma rápida e fácil?">
   <main class="block min-h-screen w-full">
-    <section class="bg-calculator">
+    <section class="bg-calculator bg-cover">
       <article class="bg-texture filter max-w-2xl sm:ml-10 mx-auto pt-10">
         <h1
           class="text-center font-title font-bold text-4xl md:text-5xl text-amber-400 max-w-md mx-auto"
         >
           O QUE VOCÊ ACHA DE GANHAR R$ 30,00 DE CASHBACK?
         </h1>
-        <Image
-          src={Logo}
-          alt="Jetx"
-          class="w-2/3 mx-auto"
-          width={400}
-          height={400}
-        />
+
+        <Image src={Logo} alt="Jetx" width={445} height={230} />
       </article>
     </section>
-    <section class="flex flex-col gap-6 p-12">
+    <section class="flex flex-col gap-6 py-12">
       <h2 class="text-2xl md:text-5xl md:pt-16 text-center">
         TENHO A OPORTUNIDADE CERTA PRA VOCÊ SE DIVERTIR E AINDA GANHAR DINHEIRO!
       </h2>
       <iframe
-        class="mx-auto max-w-[940px] w-11/12 h-48 md:h-[530px]"
+        class="mx-auto max-w-[940px] w-72 md:w-11/12 h-52 md:h-[530px]"
         src="http://www.youtube.com/embed/I9GrRZx2Afc?autoplay=1"
         allow="autoplay"></iframe>
     </section>
-    <section class="bg-bulbs bg-center py-20">
+    <section class="bg-bulbs bg-cover py-20">
       <article
         class="max-w-md sm:ml-10 mx-auto text-center bg-[#152138] flex flex-col py-20 px-14"
       >
